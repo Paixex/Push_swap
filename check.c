@@ -6,7 +6,7 @@
 /*   By: digil-pa <digil-pa@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/13 16:40:41 by digil-pa          #+#    #+#             */
-/*   Updated: 2023/09/25 22:44:09 by digil-pa         ###   ########.fr       */
+/*   Updated: 2023/10/10 15:04:26 by digil-pa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int	digit_checker(int ac, char **av)
 	i = 1;
 	while (i < ac)
 	{
-		if (av[i][0] == '-')
+		if (av[i][0] == '-' || av[i][0] == '+')
 		{
 			if (av[i][1] == '\0' || ft_isdigit(av[i][1]) == 0)
 				return (FALSE);
