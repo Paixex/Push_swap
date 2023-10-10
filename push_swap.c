@@ -6,11 +6,7 @@
 /*   By: digil-pa <digil-pa@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/30 18:13:27 by digil-pa          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2023/09/25 22:58:40 by digil-pa         ###   ########.fr       */
-=======
-/*   Updated: 2023/09/25 14:08:30 by digil-pa         ###   ########.fr       */
->>>>>>> d9b33a9275aab92bda6a6b8298699b0b7b0da12a
+/*   Updated: 2023/10/10 14:18:44 by digil-pa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,33 +34,6 @@ t_node	*insert_stack_a(char **av)
 		stack_a = &head;
 	}
 	return (head);
-}
-
-void	print_stack(t_node *head)
-{
-	t_node	*temp;
-	int		i;
-
-	i = 0;
-	temp = head;
-<<<<<<< HEAD
-	printf("STACK:\n");
-	while (temp->next != NULL)
-	{
-		printf("%i\n", i);
-		printf("%i\n", temp->number);
-		temp = temp->next;
-		i++;
-	}
-	printf("%i\n", temp->number);
-=======
-	while (temp->next != NULL)
-	{
-		temp = temp->next;
-		i++;
-	}
->>>>>>> d9b33a9275aab92bda6a6b8298699b0b7b0da12a
-	return ;
 }
 
 void	ft_clean_lst(t_node **stack)
