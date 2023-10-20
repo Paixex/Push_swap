@@ -6,7 +6,7 @@
 /*   By: digil-pa <digil-pa@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 17:04:23 by digil-pa          #+#    #+#             */
-/*   Updated: 2023/07/03 14:12:47 by digil-pa         ###   ########.fr       */
+/*   Updated: 2023/10/20 13:08:15 by digil-pa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	mv_cost(int n, t_node **stack_a, t_node **stack_b)
 		j = 0;
 	else if (n < find_min_big(stack_b))
 		j = 0;
-	else 
+	else
 		j = (2 * cost_b(stack_b, n, 0, find_max_big(stack_b))) + 1;
 	return (i + j + 1);
 }

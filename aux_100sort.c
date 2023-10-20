@@ -6,7 +6,7 @@
 /*   By: digil-pa <digil-pa@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 15:21:25 by digil-pa          #+#    #+#             */
-/*   Updated: 2023/07/01 14:33:21 by digil-pa         ###   ########.fr       */
+/*   Updated: 2023/10/20 13:10:16 by digil-pa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void	put_nr_top_a(t_node **stack, int nr_to_mv)
 		while (i++ < ft_lstsize((*stack)))
 			ft_rra(stack);
 	}
-	else 
+	else
 	{
 		while (i-- > 0)
 			ft_ra(stack);
@@ -89,7 +89,7 @@ void	put_nr_top_b(t_node **stack, int nr_to_mv)
 		while (i++ < ft_lstsize((*stack)))
 			ft_rrb(stack);
 	}
-	else 
+	else
 	{
 		while (i-- > 0)
 			ft_rb(stack);
